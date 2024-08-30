@@ -1,0 +1,76 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon/components";
+
+import App from "@assets/icons/App.astro";
+import Erp from "../assets/icons/Erp.astro";
+import Disk from "../assets/icons/Disk.astro";
+import Data from "../assets/icons/Data.astro";
+import Cloud from "../assets/icons/Cloud.astro";
+import Windows from "../assets/icons/Windows.astro";
+
+
+---
+
+<div class="mt-16 md:mt-8">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Gestiona tus datos
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    Soluciones para asegurar tus datos.
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+      <div class="flex gap-4 items-start">
+        <div class="mt-2  w-12 h-8">
+          <Erp class="size-8 md:size-12"/>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Recuperación de datos</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Recuperamos tus datos de diferentes medios de almacenamiento</p>
+        </div>
+      </div>
+      <div class="flex gap-4 items-start">
+        <div class="mt-2 w-12 h-8">
+          <Data class="size-8 md:size-12"/>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Solución empresarial ERP</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Software para gestión de contabilidad, clientes, ventas, inventario..</p>
+        </div>
+      </div><div class="flex gap-4 items-start">
+        <div class="mt-2 w-12 h-8">
+          <Windows class="size-10 md:size-12"/>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Sistema operativo</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Instalación y configuración inicial</p>
+        </div>
+      </div><div class="flex gap-4 items-start">
+        <div class="mt-2 w-12 h-8">
+          <App class="size-10 md:size-12"/>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Pack programas esenciales</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Te asesoramos e instalamos lo mejor del mercado</p>
+        </div>
+      </div>
+      <div class="flex gap-4 items-start">
+        <div class="mt-2  w-12 h-8">
+          <Disk class="size-8 md:size-12"/>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Copias de seguridad</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Mantenimiento, batería, cambio de rodillos y ruedas.</p>
+        </div>
+      </div><div class="flex gap-4 items-start">
+        <div class="mt-2  w-12 h-8">
+          <Cloud class="size-10 md:size-12"/>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Trabajo en la nube</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Mantenimiento, problemas de impresión o alimentación, atascos de papel, mensajes de error.</p>
+        </div>
+      </div>
+</div>

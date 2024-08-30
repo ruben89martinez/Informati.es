@@ -1,0 +1,61 @@
+---
+// @ts-ignore
+import { Picture } from "astro:assets";
+
+import Diseno from "@assets/images/diseno-web.png";
+import Mantenimiento from "@assets/images/mantenimiento-web.png";
+import Seo from "@assets/images/seo.png";
+---
+
+<div class="mt-16">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Diseño web
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    Nos encargamos de tu sitio web.
+  </p>
+</div>
+
+
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+      <div class="flex gap-4 items-start">
+        <div class="w-12 h-8">
+          <Picture
+          src={Diseno}
+          alt="Diseño web"   
+        />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Creación de sitio web</h3>
+          <!-- <p class="text-slate-500 mt-2 leading-relaxed">Webs de</p> -->
+        </div>
+      </div>
+      <div class="flex gap-4 items-start">
+        <div class="w-12 h-8">
+          <Picture
+          src={Mantenimiento}
+          alt="Mantenimiento"
+        />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Mantenimiento y gestión</h3>
+         <!-- <p class="text-slate-500 mt-2 leading-relaxed">Problemas de carga, cambio de batería, pinchazos, frenos, software.</p> -->
+        </div>
+      </div><div class="flex gap-4 items-start">
+        <div class="w-12 h-8">
+          <Picture
+          src={Seo}
+          alt="Seo"
+        />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Posicionamiento en buscadores SEO</h3>
+          <!-- <p class="text-slate-500 mt-2 leading-relaxed">Elimina la publicidad y mejora el rendimiento</p> -->
+        </div>
+      </div>
+      <div class="flex gap-4 items-start">
+        <div class="mt-2  w-12 h-8">
+          
+
+</div>

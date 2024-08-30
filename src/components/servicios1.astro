@@ -1,0 +1,76 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon/components";
+import Impresora from "../assets/icons/Impresora.astro";
+import Patinete from "../assets/icons/Patinete.astro";
+import Portatil from "../assets/icons/Portatil.astro";
+import Roomba from "../assets/icons/Roomba.astro";
+import Consola from "../assets/icons/Consola.astro";
+import Movily from "../assets/icons/Movily.astro";
+
+import Logos1 from "@components/logos1.astro";
+---
+<Logos1 />
+<div class="mt-16 md:mt-16">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Reparaciones de variedad de dispositivos
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    Nuestros técnicos buscarán la mejor opción de reparación posible.
+  </p>
+</div>
+
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+      <div class="flex gap-4 items-start">
+        <div class="mt-2  w-12 h-8">
+          <Icon class="size-8 md:size-12" name="simple-icons:pcgamingwiki" />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Ordenadores de sobremesa y portátiles</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Mantenimiento, montaje, sistema operativo, cambio de disco duro, recuperación de datos, optimización, instalación de programas.</p>
+        </div>
+      </div>
+      <div class="flex gap-4 items-start">
+        <div class="mt-2 w-12 h-8">
+          <Movily class="size-10 md:size-12"/>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Móviles y tablets</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Iphone, cambio de pantalla y batería, protectores, recuperación de datos, optimización.</p>
+        </div>
+      </div><div class="flex gap-4 items-start">
+        <div class="mt-2 w-12 h-8">
+          <Patinete class="size-10 md:size-12"/>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Patinetes</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Problemas de carga, cambio de batería, pinchazos, frenos, software.</p>
+        </div>
+      </div><div class="flex gap-4 items-start">
+        <div class="mt-2 w-12 h-8">
+          <Consola class="size-10 md:size-12"/>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Consolas</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Mantenimiento, fuente de alimentación, reparación de mandos.</p>
+        </div>
+      </div>
+      <div class="flex gap-4 items-start">
+        <div class="mt-2  w-12 h-8">
+          <Roomba class="size-10 md:size-12"/>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Roombas</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Mantenimiento, batería, cambio de rodillos y ruedas.</p>
+        </div>
+      </div><div class="flex gap-4 items-start">
+        <div class="mt-2  w-12 h-8">
+          <Impresora class="size-10 md:size-12"/>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Impresoras</h3>
+          <p class="text-slate-500 mt-2 leading-relaxed">Mantenimiento, problemas de impresión o alimentación, atascos de papel, mensajes de error.</p>
+        </div>
+      </div>
+</div>
