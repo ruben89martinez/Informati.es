@@ -14,12 +14,20 @@ export const headerData = {
           href: getPermalink('/ordenadores'),
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
+          text: 'Patinetes',
+          href: getPermalink('/patinetes'),
         },
         {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'Consolas',
+          href: getPermalink('/Consolas'),
+        },
+        {
+          text: 'Roombas',
+          href: getPermalink('/Roombas'),
+        },
+        {
+          text: 'Impresoras',
+          href: getPermalink('/Impresoras'),
         },
       ],
     },
@@ -86,7 +94,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Diseño web',
       links: [
         {
           text: 'Blog List',
@@ -111,7 +119,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
+      text: 'Contacto',
       href: '#',
     },
   ],
