@@ -7,93 +7,80 @@ export const headerData = {
       links: [
         {
           text: 'Móbiles y tablets',
-          href: getPermalink('/moviles'),
+          href: getPermalink('#reparaciones'),
         },
         {
           text: 'Portatiles y sobremesa',
-          href: getPermalink('/ordenadores'),
+          href: getPermalink('#reparaciones'),
         },
         {
           text: 'Patinetes',
-          href: getPermalink('/patinetes'),
+          href: getPermalink('#reparaciones'),
         },
         {
           text: 'Consolas',
-          href: getPermalink('/Consolas'),
+          href: getPermalink('#reparaciones'),
         },
         {
           text: 'Roombas',
-          href: getPermalink('/Roombas'),
+          href: getPermalink('#reparaciones'),
         },
         {
           text: 'Impresoras',
-          href: getPermalink('/Impresoras'),
+          href: getPermalink('#reparaciones'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Datos',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'Sistema Operativo',
+          href: getPermalink('#datos'),
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text: 'Rendimiento equipo',
+          href: getPermalink('#datos'),
         },
         {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
+          text: 'Recuperación de datos',
+          href: getPermalink('#datos'),
         },
         {
-          text: 'About us',
-          href: getPermalink('/about'),
+          text: 'Copias de seguridad',
+          href: getPermalink('#datos'),
         },
         {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
+          text: 'Gestión empresarial',
+          href: getPermalink('#datos'),
+        }
       ],
     },
     {
-      text: 'Landing',
+      text: 'Sitios web',
+
       links: [
         {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          text: 'Crea tu web',
+          href: getPermalink('#pagina-web'),
         },
         {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
+          text: 'Renueva tu web',
+          href: getPermalink('#pagina-web'),
         },
         {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
+          text: 'Mantenimiento y gestión',
+          href: getPermalink('#pagina-web'),
         },
         {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
+          text: 'Posicionamiento SEO',
+          href: getPermalink('#pagina-web'),
         },
       ],
     },
-    {
+
+    /*
+        {
       text: 'Diseño web',
       links: [
         {
@@ -117,13 +104,13 @@ export const headerData = {
           href: getPermalink('astro', 'tag'),
         },
       ],
-    },
+    },*/
     {
       text: 'Contacto',
-      href: '#',
+      href: '#contacto',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Pide presupuesto', href: 'https://www.informaticka.es/presupuesto'}],
 };
 
 export const footerData = {
@@ -178,14 +165,11 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
   ],
   footNote: `
-    <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    <a href="https://www.informaticka.es/"><img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
+    </a> · Todos los derechos reservados.
   `,
 };
