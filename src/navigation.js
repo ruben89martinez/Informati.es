@@ -58,7 +58,6 @@ export const headerData = {
     },
     {
       text: 'Sitios web',
-
       links: [
         {
           text: 'Crea tu web',
