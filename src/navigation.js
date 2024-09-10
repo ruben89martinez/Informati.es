@@ -3,6 +3,27 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
+      text: 'Sitios web',
+      links: [
+        {
+          text: 'Crea tu web',
+          href: getPermalink('#pagina-web'),
+        },
+        {
+          text: 'Renueva tu web',
+          href: getPermalink('#pagina-web'),
+        },
+        {
+          text: 'Mantenimiento y gestión',
+          href: getPermalink('#pagina-web'),
+        },
+        {
+          text: 'Posicionamiento SEO',
+          href: getPermalink('#pagina-web'),
+        },
+      ],
+    },
+    {
       text: 'Reparaciones',
       links: [
         {
@@ -56,28 +77,6 @@ export const headerData = {
         }
       ],
     },
-    {
-      text: 'Sitios web',
-      links: [
-        {
-          text: 'Crea tu web',
-          href: getPermalink('#pagina-web'),
-        },
-        {
-          text: 'Renueva tu web',
-          href: getPermalink('#pagina-web'),
-        },
-        {
-          text: 'Mantenimiento y gestión',
-          href: getPermalink('#pagina-web'),
-        },
-        {
-          text: 'Posicionamiento SEO',
-          href: getPermalink('#pagina-web'),
-        },
-      ],
-    },
-
     /*
         {
       text: 'Diseño web',
