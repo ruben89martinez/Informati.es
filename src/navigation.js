@@ -3,7 +3,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Sitios web',
+      text: 'Páginas web',
       links: [
         {
           text: 'Crea tu web',
@@ -43,7 +43,7 @@ export const headerData = {
           href: getPermalink('#reparaciones'),
         },
         {
-          text: 'Roombas',
+          text: 'Robots aspiradores',
           href: getPermalink('#reparaciones'),
         },
         {
@@ -167,7 +167,14 @@ export const footerData = {
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
   ],
   footNote: `
-    <a href="https://www.informaticka.es/"><img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
-    </a> · Todos los derechos reservados.
+  <a href="https://www.informaticka.es/">
+  <span
+  class="self-center ml-2 mr-1 rtl:ml-0 rtl:mr-2 text-2xl md:text-4xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
+   Informati
+</span>
+<img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" 
+src="/_astro/volver_azul.DOUJG5a0.png" 
+alt="logo" loading="lazy" style="width:2rem; display:inline-block;"/>
+</a>
   `,
 };
