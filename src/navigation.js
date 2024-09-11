@@ -167,14 +167,14 @@ export const footerData = {
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
   ],
   footNote: `
-  <a href="https://www.informaticka.es/">
+  <a href="https://www.informaticka.es/" class="flex items-center">
   <span
-  class="self-center ml-2 mr-1 rtl:ml-0 rtl:mr-2 text-2xl md:text-4xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
+  class=" ml-2 rtl:ml-0 text-2xl md:text-4xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
    Informati
 </span>
-<img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" 
+<img class="ml-1" 
 src="/_astro/volver_azul.DOUJG5a0.png" 
-alt="logo" loading="lazy" style="width:2rem; display:inline-block;"/>
+alt="logo" loading="lazy" style="width:1.8rem; display:inline-block;"/>
 </a>
   `,
 };
